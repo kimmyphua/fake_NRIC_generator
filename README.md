@@ -5,9 +5,10 @@ by kimberly phua
 # Description
 This simple web application is made with React and designed with  <a href="https://ant.design/" target="_blank">Ant Design</a> When user clicks on the "generate random NRIC" button, a random 
 NRIC will be generated and shown in the table. User can generate multiple NRICs which will be
-added to the table. The table also includes pagination and can be adjusted to show 10, 30 or 100 datas per page. A loading indicator is also added to the button which loads the data after 0.5 seconds.
+added to the table. If the NRIC already exists, the app will alert the user and prompt the use to generate another NRIC. The table also includes pagination and can be adjusted to show 10, 30 or 100 datas per page. A loading indicator is also added to the button which loads the data after 0.5 seconds.
 
-
+# Docker
+Open in http://localhost:3000 or http://localhost:8080
 
 # Screenshots
 <img width="50%" src="https://i.imgur.com/KVGO5xF.png"/>
